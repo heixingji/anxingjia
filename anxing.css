@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+a {
+    color: #fff;
+    text-decoration: none
+}
+
+.top {
+    height: 150px;
+    width: 240px;
+    background-color: rgb(5 27 48);
+    float: left;
+}
+
+.on {
+    line-height: 32px;
+    color: #fff;
+    font-size: 32px;
+    width: 32px;
+    height: 10px;
+    display: block;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+.in {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.photo {
+    margin-top: 10px;
+    width: 200px;
+    height: 90px;
+    margin-left: 30px;
+    float: left;
+}
+
+.photo img {
+    width: 106%;
+    height: 112%;
+}
+
+.zhong1 {
+    float: left;
+    background-color: rgb(5 27 48);
+    width: 1000px;
+    height: 44px;
+}
+
+.zhong1 .a {
+    float: left;
+    width: 135px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+
+.botto {
+    border-bottom: 1px solid #fff;
+}
+
+.zhong2 {
+    float: left;
+    width: 1000px;
+    height: 44px;
+    background-color: #fff;
+}
+
+.zhong2 .search {
+    outline: 0;
+    border: 0;
+    width: 90%;
+    height: 44px;
+    float: left;
+}
+
+.search input {
+    width: 100%;
+    height: 44px;
+    outline: 0;
+    border: 0;
+    font-size: 18px;
+}
+
+.zhong2 .button {
+    width: 5%;
+    float: right;
+    height: 44px;
+    background-color: #fff;
+}
+
+.button img {
+    width: 100%;
+    height: 100%;
+}
+
+.zhong3 {
+    float: left;
+    background-color: rgb(5 27 48);
+    width: 1000px;
+    height: 62px;
+}
+
+.zhong3 div {
+    width: 128px;
+    height: 40px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    margin-top: 11px;
+}
+
+.zhong3 .hong {
+    background-color: rgb(174, 169, 169);
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 11px;
+}
+
+.zhong3 .sanjiao {
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-top-color: #fff;
+    margin-top: 25px;
+    margin-left: 8px;
+}
+
+.deng {
+    float: left;
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(5 27 48);
+}
+
+.he {
+    height: 150px;
+    background-color: rgb(5 27 48);
+}
+
+.duo {
+    width: 1000px;
+    height: 150px;
+    float: left;
+}
+
+.huun {
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    font-size: 16px;
+}
+
+.hexin {
+    margin-left: 240px;
+    width: 1000px;
+}
+
+.hexin .ci {
+    border-left: 1px solid #fff;
+    height: 20px;
+    width: 100px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+}
+
+.hexin .sanjiao {
+    border: 10px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.jieshao {
+
+    margin: 20px auto;
+    width: 1000px;
+
+}
+
+.jieshao img {
+    margin: -35px auto;
+    right: 0px;
+    width: 100%;
+    height: 43%;
+    z-index: -9999;
+    object-fit: fill;
+    position: absolute;
+}
+
+.jieshao h2,
+p {
+    color: rgba(166, 166, 198, 0.656);
+    font-style: normal;
+}
+
+.jieshao h2 {
+    margin: 35px 0;
+    text-align: center;
+}
+
+.jieshao .yuan {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.jieshao .zon {
+    text-align: center;
+    width: 1000px;
+
+}
+
+.jieshao .hei {
+    background-color: #000;
+}
+
+.neirun {
+    width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d1d6dcb8;
+}
+
+.neirun div {
+    width: 300px;
+    height: 180px;
+    float: left;
+}
+
+.neirun a {
+    text-decoration: underline;
+    color: blue;
+    display: block;
+    margin-top: 5px;
+}
+
+.bairuyu1 .tou {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+    font-size: 20px;
+}
+
+.bairuyu1 .yuan {
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.bairuyu1 .tu {
+    display: flex;
+    width: 1350px;
+    margin: 10px auto;
+}
+
+.bairuyu1 .tu1 {
+    width: 340px;
+    height: 500px;
+    float: left;
+    margin: 0 5px;
+    background-color: red;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tu1 img {
+    width: 100%;
+    height: 39%;
+}
+
+.tu1 .zi {
+    box-sizing: border-box;
+    margin: 8px;
+    margin-left: 20px;
+}
+
+.tu1 a {
+    display: block;
+    width: 100px;
+    bottom: 5px;
+    right: 5px;
+    color: #fff;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.tu1 em {
+    display: block;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.bairuyu1 .blue {
+    background-color: blue;
+    text-align: center;
+}
+
+.tu1 .but {
+    display: flex;
+    width: 170px;
+    height: 50px;
+    background-color: #fff;
+    color: gray;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.tu1 .bai {
+    background-color: #fff;
+    width: 176px;
+    height: 56px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.zi .q {
+    margin-bottom: 20px;
+}
+
+.bairuyu1 .gray {
+    background-color: gray;
+    text-align: center;
+}
+
+.bairuyu1 .qin {
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+}
+
+.qin .te {
+    width: 68%;
+    height: 15%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.qin em {
+    font-size: 24px;
+}
+
+.qin .sanjiao {
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom: 15px solid #fff;
+    margin-top: 32px;
+}
+
+.bairuyu1 .zon {
+    width: 1350px;
+    /*display: flex;*/
+    text-align: center;
+    margin-top: 15px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.bairuyu1 .bai {
+    background-color: #fff;
+}
+
+.bairuyu1 .liang {
+    background-color: #fff !important;
+    height: 400px;
+    width: 340px;
+    color: #000;
+}
+
+.liang img {
+    height: 43%;
+    width: 100%;
+}
+
+.weiba {
+    height: 400px;
+    background-color: #000;
+}
+
+.weiba .xia,
+.weiba .shang {
+    padding-top: 100px;
+    width: 1000px;
+    height: 100px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.h {
+    height: 100px;
+    width: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zii {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    border: 1px solid white;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.weiba .sanjiao {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+    float: right;
+    margin-top: 23px;
+}
+
+.i {
+    float: right;
+    font-size: 28px;
+    width: 200px;
+}
+
+.e {
+    float: right;
+    font-size: 28px;
+    width: 250px;
+}
+
+.nnn {
+    display: block;
+    float: left;
+}
+
+.b {
+    width: 300px;
+    float: left;
+}
+
+.sss {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.nnn .sanjiao {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #fff;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.aa {
+    width: 300px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+}
+
+.k {
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+}
